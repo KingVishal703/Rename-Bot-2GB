@@ -10,8 +10,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","mkrename")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://vishalw7038:3xVj8TapezYEHspe@cluster0.tkmionl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME","Animebot")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://wankedevishal:1QFxEeaDteWIBxjL@cluster0.8gslblb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
